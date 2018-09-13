@@ -5,8 +5,7 @@ import AddWord from './AddWord'
 
 const App = () => (
   <div className='app-container'>
-    <Words />
-    <AddWord />
+  <Circl />
   </div>
 )
 
