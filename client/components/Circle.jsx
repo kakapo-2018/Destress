@@ -1,28 +1,33 @@
 import React from 'react'
-import Captions from './Captions'
-import AddCaption from './AddCaption'
+// import {connect} from 'react-redux'
 
+let testArray = ["kittens", "puppies", "baby animals", "landscapes", "rain"]
 
 class Circle extends React.Component {
   constructor(props){
     super(props)
   }
+
 render() {
   return (
-    <div>
-      <h1>Hi</h1>
-    {/* <div id="comments">
-    <div id="read">  
-    <Captions />
-    <div id="add">
-    <AddCaption />
-    </div>
-    </div>
-    </div> */}
+    <div id="circles">
+      <p>Circles component</p>
+      {
+        testArray.map(topic => {
+          return <div className="circle" id={`circle${topic}`} key={`circle${topic}`}>{topic}</div>
+        })
+      }
     </div>
   )
 }
 }
 
-
 export default Circle
+
+// const mapStateToProps = (state) => {
+//   return {
+//     circles: state.circles
+//   }
+// }
+// export default connect(mapStateToProps)(Circles)
+
