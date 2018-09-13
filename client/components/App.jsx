@@ -1,11 +1,11 @@
 import React from 'react'
-
-import Words from './Words'
-import AddWord from './AddWord'
+import Topic from './Topic'
 
 const App = () => (
   <div className='app-container'>
-  <Circl />
+
+  <h1>Main page</h1>
+  <Topic />
   </div>
 )
 

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Circle from './Circle'
 
 
 class Topic extends React.Component {
@@ -9,9 +9,9 @@ class Topic extends React.Component {
 render() {
   return (
     <div>
-    <Words />
-    <AddWord />
-    </div>
+      <h1>  circles here </h1>
+<Circle />
+</div>
   )
 }
 }
