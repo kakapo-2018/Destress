@@ -1,6 +1,4 @@
 import React from 'react'
-import Circle from './Circle'
-
 
 class Topic extends React.Component {
   constructor(props){
@@ -10,10 +8,10 @@ render() {
   return (
     <div>
       <div id="return">
-      <button>Back</button>
+        <button>Back</button>
       </div>
       <div id ="image">
-      <h1>I am Topic </h1>
+        <h1>I am Topic </h1>
       </div>
       {/* <div id="captions">
       <div id ="captions-read">
