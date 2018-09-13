@@ -1,9 +1,9 @@
-let nextWordId = 0
+let nextCaptionId = 0
 
-export const addWord = (word) => {
+export const addCaption = (word) => {
   return {
     type: 'ADD_WORD',
-    id: nextWordId++,
+    id: nextCaptionId++,
     word
   }
 }
