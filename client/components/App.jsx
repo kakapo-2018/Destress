@@ -2,10 +2,8 @@ import React from 'react'
 import Circle from './Circle'
 
 const App = () => (
-  <div className='app-container'>
-
-  <Circle />
+  <div id="app">
+    <Circle />
   </div>
 )
-
 export default App
