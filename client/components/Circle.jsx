@@ -1,6 +1,6 @@
 import React from 'react'
-import Words from './Words'
-import AddWord from './AddWord'
+import Captions from './Captions'
+import AddCaption from './AddCaption'
 
 
 class Circle extends React.Component {
@@ -10,14 +10,15 @@ class Circle extends React.Component {
 render() {
   return (
     <div>
-    <div id="comments">
+      <h1>Hi</h1>
+    {/* <div id="comments">
     <div id="read">  
-    <Words />
+    <Captions />
     <div id="add">
-    <AddWord />
+    <AddCaption />
     </div>
     </div>
-    </div>
+    </div> */}
     </div>
   )
 }

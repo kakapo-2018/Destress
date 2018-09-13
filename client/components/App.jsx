@@ -1,11 +1,10 @@
 import React from 'react'
-import Topic from './Topic'
+import Circle from './Circle'
 
 const App = () => (
   <div className='app-container'>
 
-  <h1>Main page</h1>
-  <Topic />
+  <Circle />
   </div>
 )
 
