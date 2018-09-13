@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Caption = (props) => (
+const Word = (props) => (
   <div>{props.word}</div>
 )
 
