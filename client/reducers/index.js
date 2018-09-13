@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux'
 
-import words from './words'
+import captions from './captions'
 
 export default combineReducers({
-  words
+  captions
 })

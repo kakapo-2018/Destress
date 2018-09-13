@@ -1,11 +1,11 @@
-const words = (state = [], action) => {
+const captions = (state = [], action) => {
   switch (action.type) {
-    case 'ADD_WORD':
+    case 'ADD_CAPTION':
       return [
         ...state,
         {
           id: action.id,
-          word: action.word
+          caption: action.caption
         }
       ]
 
@@ -14,4 +14,4 @@ const words = (state = [], action) => {
   }
 }
 
-export default words
+export default captions
