@@ -26,3 +26,8 @@ Please put an "x" in the brackets/tickbox when the task is complete.
 ## Undecided Matters
 * [] initial images sourced from Reddit API or searching and inputting URLs manually
 
+## clarification
+
+*AddCaption = Add a caption
+*Captions = Mapping through captions and calling Word
+*Caption = Presentation on screen of eact caption

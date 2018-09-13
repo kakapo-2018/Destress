@@ -1,12 +1,10 @@
 import React from 'react'
-
-import Captions from './Captions'
-import AddCaption from './AddCaption'
+import Circle from './Circle'
 
 const App = () => (
   <div className='app-container'>
-    <Captions />
-    <AddCaption />
+
+  <Circle />
   </div>
 )
 
