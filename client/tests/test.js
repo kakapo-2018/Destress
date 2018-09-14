@@ -11,7 +11,7 @@ test('<Circle /> has div', () => {
  
   expect(wrapper.text()).toMatch(expected)
 })
-
+ 
 test('<topic /> does this have an h1 tag', () => {
 
 //Arrange  
