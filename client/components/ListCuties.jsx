@@ -5,13 +5,24 @@ import arrayList from "../../data/topics.js"
 let testArray = ["kittens", "puppies", "baby animals", "landscapes", "rain"]
 // // this to be changed to call data from each array
 
-console.log(arrayList)
-console.log(testArray)
+
+// console.log(arrayList[0].type)
+
 
 class ListCuties extends React.Component {
   constructor(props){
     super(props)
   }
+
+// getTypes(array) {
+// let typesArray = []
+//   for (let i = 0; i < array.length; i++) {
+//     const type = array[i];
+//     console.log(type)
+//     return typesArray.push(type)
+//   }
+// console.log(typesArray)
+// }
 
 render() {
   return (

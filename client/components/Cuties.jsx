@@ -3,8 +3,8 @@ import React from 'react'
 class Cuties extends React.Component {
   constructor(props){
     super(props)
-    console.log("------------in cuties")
-    console.log(props)
+    // console.log("------------in cuties")
+    // console.log(props)
     // console.log(arrayList)
   }
 
