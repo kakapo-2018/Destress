@@ -1,9 +1,13 @@
 import React from 'react'
-import Circle from './Circle'
+import ListCuties from './ListCuties'
 
-const App = () => (
-  <div id="app">
-    <Circle />
-  </div>
-)
+const App = () => {
+  return (
+    <div id="app">
+      <h1>deStress</h1>
+      <ListCuties />
+    </div>
+  )
+}
+
 export default App

@@ -1,7 +1,3 @@
-// Everyone has an array - please change the name of your array to your topic - I have made the first one "kittens"
-// I've made some placeholder objects in each of the arrays.
-// Maybe ten images each?
-
 module.exports = {
 
 // Lianna
