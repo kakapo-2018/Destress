@@ -15,7 +15,7 @@ render() {
         <button>Back</button>
       </div>
 
-      <h1>Cuties</h1>
+      <h1>I am Cuties </h1>
 
       <div id="image">
         <img src={this.props.image}/>
