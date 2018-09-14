@@ -20,7 +20,7 @@ module.exports = {
   Bella : [
     {
       id: 1,
-      image: ""
+      image: "https://i.kym-cdn.com/entries/icons/original/000/022/690/download.jpg"
     },
     {
       id: 2,

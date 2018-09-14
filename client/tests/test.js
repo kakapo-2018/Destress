@@ -7,6 +7,19 @@ import Circle from '../components/Circle'
 test('<Circle /> has div', () => {
   const expected = "Circles component"
   const wrapper = shallow(<Circle />)
-  console.log(wrapper)
+ 
   expect(wrapper.text()).toMatch(expected)
+})
+
+test('<Circle /> creates one item for each topic', () => {
+  // Arrange
+  const topics = ['kitten', 'Puppies', 'Pandas']
+  const expected = 3
+
+  // Act
+  const wrapper = shallow(<Circle thing={topics} />)
+  const actual = wrapper.find('div')
+console.log(topics)
+  // Assert
+  expect(actual).toEqual(expected)
 })
