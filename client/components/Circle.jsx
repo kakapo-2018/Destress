@@ -14,7 +14,7 @@ render() {
       <p>Circles component</p>
       {
         testArray.map(topic => {
-          return <div className="circle" id={`circle${topic}`} key={`circle${topic}`}>{topic}</div>
+          return <ul><li className="circle" id={`circle${topic}`} key={`circle${topic}`}>{topic}</li></ul>
         })
       }
     </div>
