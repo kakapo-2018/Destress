@@ -32,11 +32,11 @@ module.exports = {
   Yuzuki : [
     {
       id: 1,
-      image: ""
+      image: "http://www.andysowards.com/blog/assets/cute-animal-photography-funny-kitty-puppy-memes-11-600x434.jpg"
     },
     {
       id: 2,
-      image: ""
+      image: "https://www.meme-arsenal.com/memes/cbd6d4cbed299d75a118982edaf8e57a.jpg"
     }
   ],
 
@@ -44,11 +44,11 @@ module.exports = {
   Kyoko : [
     {
       id: 1,
-      image: ""
+      image: "http://favogram.com/wp-content/uploads/2015/09/Breathtaking-Views-From-Around-The-World-7.jpg"
     },
     {
       id: 2,
-      image: ""
+      image: "http://www.crazecentral.com/uploads/gallery_pics/11a92d3343fee211a526d77bd7b9e6c2.jpg"
     }
   ],
 
@@ -57,11 +57,11 @@ module.exports = {
   Rob : [
     {
       id: 1,
-      image: ""
+      image:"http://animals.sandiegozoo.org/sites/default/files/2016-09/Meerkat_ZN.jp"
     },
     {
       id: 2,
-      image: ""
+      image: "https://www.epm.org/static/uploads/images/blog/funnpic-dogandgirl.jpg"
     }
   ],
 }
