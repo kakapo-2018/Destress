@@ -10,8 +10,9 @@ render() {
       <div id="return">
         <button>Back</button>
       </div>
+      <h1>I am Topic </h1>
       <div id ="image">
-        <h1>I am Topic </h1>
+        <img src = {this.props.image}/>
       </div>
       {/* <div id="captions">
       <div id ="captions-read">
