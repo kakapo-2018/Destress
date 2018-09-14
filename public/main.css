@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .dot {
   width: 2rem;
   height: 2rem;
@@ -9,4 +13,157 @@ button {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
+}
+
+.img {
+  max-width: 500px;
+  border-radius: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2em;
+  margin:10px;
+}
+
+#circles {
+  /* border: solid blue 3px; */
+  max-width: 800px;
+  min-width: 700px;
+  max-height: 70%;
+  margin: auto;
+  position: relative;
+  margin-top: 20vh;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.circle {
+  border: solid black 3px;
+  width: 120px;
+  height: 120px;
+  margin: 30px;
+  margin-left: 110px;
+  margin-right: 110px;
+  border-radius: 100%;
+}
+
+
+
+#circle1 {
+  
+}
+
+#circle2 {
+
+}
+
+#circle3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#circle4 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#circle5 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#image1 {
+  width: 208px;
+  position: relative;
+  left: -41px;
+  top: -47px;
+}
+
+#image2 {
+  width: 110px;
+  left: 3px;
+  top: 3px;
+  position: relative;
+}
+
+#image3 {
+  position: relative;
+  top: 27px;
+  left: 10px;
+  width: 100px;
+}
+
+#image4 {
+  position: relative;
+  width: 67px;
+  left: 28px;
+  top: 6px;
+  border-radius: 0% 0% 45% 25%;
+}
+
+#image5 {
+  position: relative;
+  width: 115px;
+  top: 34px;
+  left: 3px;
+  border-radius: 25%;
+}
+
+/* Topic */
+
+#topic {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+#return {
+  position: relative;
+  width: fit-content;
+  height: 50px;
+  margin: 10px;
+
+}
+
+#image {
+  border: solid purple 2px;
+  width: 45vw;
+  height: 45vw;
+  border-radius: 100%;
+  margin: auto;
+  position: relative;
+  top: -35px;
+}
+
+#captions {
+  border: solid black 3px;
+  width: 45vw;
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  top: -35px;
+  height: 20vh;
+  border-radius: 30px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3em;
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2em;
+  margin:10px;
+}
+
+a {
+    font-family: 'Fredoka One', cursive;
+
 }
